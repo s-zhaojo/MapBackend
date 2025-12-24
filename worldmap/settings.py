@@ -54,7 +54,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = "worldmap.urls"
 
-CORS_ALLOWED_ORIGINS = ["https://your-vercel-frontend.vercel.app",]
+CORS_ALLOWED_ORIGINS = ["https://map-frontend-two.vercel.app/",]
 
 TEMPLATES = [
     {
