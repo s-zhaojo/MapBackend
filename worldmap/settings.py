@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-f^%n_k$4y_jd1%1#vjl6trfk*iz**w-w&4!(^=d99p6o02-hx8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["your-render-backend.onreader.com"]
+ALLOWED_HOSTS = ["https://mapbackend-jncs.onrender.com"]
 
 
 # Application definition
