@@ -1,16 +1,6 @@
-"""
-WSGI config for worldmap project.
-
-It exposes the WSGI callable as a module-level variable named ``application``.
-
-For more information on this file, see
-https://docs.djangoproject.com/en/6.0/howto/deployment/wsgi/
-"""
-
+# wsgi.py
 import os
-
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "worldmap.settings")
-
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "worldmap.settings")  # <- keep this if worldmap/settings.py exists
 application = get_wsgi_application()
