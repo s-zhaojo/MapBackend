@@ -1,1 +1,1 @@
-web: gunicorn worldmap.wsgi
+web: gunicorn worldmap.worldmap.wsgi
